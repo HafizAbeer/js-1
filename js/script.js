@@ -89,7 +89,7 @@ document.getElementById("calculatesomeNumbers").onclick = function() {
 
     document.getElementById("originalstatement").innerHTML = "let a = 33; <br> let b = 18; <br> let c = 23;";
 
-    let sum = a / b;
+    let sum = a + b + c;
 
-    document.getElementById("output").innerHTML = "sum of a and b: " + sum;
+    document.getElementById("output").innerHTML = "sum of a, b and c is : " + sum;
 }
