@@ -85,7 +85,7 @@ document.getElementById("calculatesomeNumbers").onclick = function() {
 
     let a = 33;
     let b = 18;
-    let c = 23
+    let c = 23;
 
     document.getElementById("originalstatement").innerHTML = "let a = 33; <br> let b = 18; <br> let c = 23;";
 
